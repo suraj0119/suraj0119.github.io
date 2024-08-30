@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scrollBarHide::-webkit-scrollbar {
+  display: none;
+}
+
+/* styles/glow.css */
+.glow-effect {
+  box-shadow: 0 0 8px 2px #42eeb4; /* Aqua glow */
+}
